@@ -7,11 +7,14 @@ function setup() {
   pixelDensity(1);
   Canvas = createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 1, 1, 1);
-//  windowResized();
   sliderS = createSlider(1, 2000, 600, 0.01);
+  sliderS.parent('inputs');
   sliderA = createSlider(1, 2000, 400, 0.01);
+  sliderA.parent('inputs');
   sliderC = createSlider(0, 30, 0, 0.01);
+  sliderC.parent('inputs');
   sliderM = createSlider(1, 100, 3, 0.01);
+  sliderM.parent('inputs');
 }
 
 function draw() {

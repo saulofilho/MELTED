@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#inputs {
+    padding: 10px 100px 0 10px;
+    left: 10%;
+}
+#myContainer {
+    width: 100%;
+}
+input {
+    width: 200px;
+}
