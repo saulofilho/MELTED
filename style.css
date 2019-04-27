@@ -8,7 +8,20 @@ html, body {
 }
 #myContainer {
     width: 100%;
+    height: 100%;
+    display: block;
 }
 input {
     width: 200px;
+}
+button {
+    padding: 6px;
+    background-color: white;
+    color: yellowgreen;
+    border-style: none;
+    font-size: 14px;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
 }

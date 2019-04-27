@@ -11,7 +11,7 @@ function setup() {
   sliderS.parent('inputs');
   sliderA = createSlider(1, 2000, 400, 0.01);
   sliderA.parent('inputs');
-  sliderC = createSlider(0, 30, 0, 0.01);
+  sliderC = createSlider(0, 2000, 0, 0.01);
   sliderC.parent('inputs');
   sliderM = createSlider(1, 100, 3, 0.01);
   sliderM.parent('inputs');
@@ -38,3 +38,9 @@ function mousePressed (){
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
+
+$(document).ready(function() {
+  $("button").click(function() {
+    $("span").toggle();
+  })
+})
