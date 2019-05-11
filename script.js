@@ -15,6 +15,14 @@ function setup() {
   sliderC.parent('inputs');
   sliderM = createSlider(1, 100, 3, 0.01);
   sliderM.parent('inputs');
+
+  saveButton = createButton('SAVE IMAGE');
+  saveButton.mousePressed(saveImg);
+  saveButton.parent('but');
+}
+
+function saveImg() {
+  save('melted.png');
 }
 
 function draw() {
