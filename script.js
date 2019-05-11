@@ -22,7 +22,7 @@ function setup() {
 }
 
 function saveImg() {
-  save('melted.png');
+  save('melted.jpg');
 }
 
 function draw() {
